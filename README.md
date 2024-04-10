@@ -15,7 +15,7 @@ Bilibili直播自动发送弹幕，Bilibili live automatically sends bullet
 
 程序的防 防脚本 功能很弱，使用后被封号后果自负。
 
-
+cookie是用来进行免密登陆的，在已经登陆过的Bilibili网页上按F12，选中“应用”，找到cookie，点开，并把其中对应内容复制过去（有经验的屏蔽此条）。
 
 ## English Introduction
 
@@ -28,3 +28,5 @@ On a whim, I created a small Python script for automatically sending barrage mes
 The program has been tested in two different live rooms, but there is no guarantee that it will work in all live rooms. Additionally, as Bilibili's website undergoes version updates, the program may become ineffective.
 
 The program's anti-anti-script feature is quite weak, so users who choose to use it do so at their own risk of being banned.
+
+The cookie is used for password-free login. To obtain it, navigate to a logged-in Bilibili webpage, press F12, select "Application," locate the cookie, open it, and copy the corresponding content (experienced users may skip this step).
