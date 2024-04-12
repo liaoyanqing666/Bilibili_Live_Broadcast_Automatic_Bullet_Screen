@@ -58,5 +58,6 @@ cookies = [
     {'name': 'DedeUserID__ckMd5', 'value': 'your own', 'domain': '.bilibili.com', 'path': '/'},
     {'name': 'SESSDATA', 'value': 'your own (a very long string)', 'domain': '.bilibili.com', 'path': '/'},
     {'name': 'bili_jct', 'value': 'yoour own', 'domain': '.bilibili.com', 'path': '/'}
+    {'name': 'bili_ticket', 'value': 'your own', 'domain': '.bilibili.com', 'path': '/'}
 ]
 send_danmu_with_selenium(room_url, message, cookies, repeat=3)
