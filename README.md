@@ -7,6 +7,8 @@ Bilibili直播自动发送弹幕，Bilibili live automatically sends bullet
 
 **切勿使用此程序攻击网站或任何人，此程序仅供个人使用，如弹幕抽奖。**
 
+可以在[这个网址](https://blog.csdn.net/m0_61718615/article/details/146134482)查看详细的使用介绍。
+
 本程序借助了chatgpt4.0的帮助完成。
 
 突发奇想做了一个b站自动发弹幕的小py脚本，可以实现每5~6秒钟发送一条重复弹幕的功能。使用`webdriver` (chromedriver)和`selenium`库配合使用，我第一次尝试写相关代码，可能会有疏漏或者错误。

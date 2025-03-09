@@ -58,8 +58,8 @@ def send_danmu_with_selenium(room_url, message, cookies, repeat=3):
 
 # Usage example
 if __name__ == "__main__":
-    room_url = "https://live.bilibili.com/9239870"
-    message = "好好玩"
+    room_url = "https://live.bilibili.com/12345"
+    message = "test"
     cookies = [
         {'name': 'CURRENT_FNVAL',       'value': 'your own', 'domain': '.bilibili.com', 'path': '/'},
         {'name': 'CURRENT_QUALITY',     'value': 'your own', 'domain': '.bilibili.com', 'path': '/'},
@@ -69,4 +69,5 @@ if __name__ == "__main__":
         {'name': 'bili_jct',            'value': 'your own', 'domain': '.bilibili.com', 'path': '/'},
         {'name': 'bili_ticket',         'value': 'your own', 'domain': '.bilibili.com', 'path': '/'}
     ]
-    send_danmu_with_selenium(room_url, message, cookies, repeat=3)
+    repeat = 3
+    send_danmu_with_selenium(room_url, message, cookies, repeat=repeat)
